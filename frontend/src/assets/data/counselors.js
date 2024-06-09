@@ -1,6 +1,6 @@
-import counselorImg01 from "../images/counselorImg01.jpg"
-import counselorImg02 from "../images/counselorImg02.jpg"
-import counselorImg03 from "../images/counselorImg03.jpg"
+import counselorImg01 from "../images/counselor-img01.jpg"
+import counselorImg02 from "../images/counselor-img02.jpg"
+import counselorImg03 from "../images/counselor-img03.jpg"
 
 //   {
 //for example
@@ -18,30 +18,30 @@ export const counselors = [
   {
     id: 1,
     name: "John Doe",
-    speciality: "Resume Building",
-    averageRating: 4.5,
+    specialization: "Resume Building",
+    avgRating: 4.5,
     totalRating: 150,
-    photo: "counselorImg01",
+    photo: counselorImg01,
     totalClients: 300,
     category: "career counseling"
   },
   {
     id: 2,
     name: "Jane Smith",
-    speciality: "Interview Preparation",
-    averageRating: 4.7,
+    specialization: "Interview Preparation",
+    avgRating: 4.7,
     totalRating: 200,
-    photo: "counselorImg02",
+    photo: counselorImg02,
     totalClients: 350,
     category: "career counseling"
   },
   {
     id: 3,
     name: "Alice Johnson",
-    speciality: "Communication Skills",
-    averageRating: 4.6,
+    specialization: "Communication Skills",
+    avgRating: 4.6,
     totalRating: 180,
-    photo: "counselorImg03",
+    photo: counselorImg03,
     totalClients: 250,
     category: "soft skills counseling"
   },
