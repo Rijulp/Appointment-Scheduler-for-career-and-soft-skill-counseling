@@ -17,7 +17,7 @@ const CounselorCard = ({counselor}) => {
     } = counselor
 
   return (
-    <div className='p-3 lg:p-5'>
+    <div className='p-3 lg:p-5 rounded-lg shadow-lg'>
       <div>
         <img src={photo} className='w-full' alt="" />
       </div>
