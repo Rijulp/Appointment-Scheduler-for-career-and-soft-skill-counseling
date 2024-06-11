@@ -26,12 +26,12 @@ const CounselorCard = ({counselor}) => {
       </h2>
 
       <div className='mt-2 lg:mt-4 flex items-center justify-between'>
-        <span className='bg-[#CCF0F3] text-irisBlueColor py-1 px-2 lg:py-2 lg:px-6
+        <span className='bg-[#CCF0F3]  text-irisBlueColor py-1 px-2 lg:py-2 lg:px-6
            text-[12px] leading-4 lg:text-[16px] lg:leading-7 font-semibold rounded'>
           {specialization}
         </span>
 
-        <div className='flex items-center gap-[6px]'>
+        <div className='flex items-center pl-2 gap-[8px]'>
         <span className='flex items-center gap-[6px] text-[14px] leading-6 lg:text-[16px] 
           lg:leading-7 font-semibold text-headingColor'>
           <img src={starIcon} alt="" /> {avgRating}
