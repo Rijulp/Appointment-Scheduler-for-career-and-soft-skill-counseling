@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "react-spring": "^9.7.3",
     "swiper": "^6.8.4"
   }
 }

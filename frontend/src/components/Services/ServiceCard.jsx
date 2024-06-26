@@ -25,7 +25,7 @@ const ServiceCard = ({ item }) => {
   const { name, desc, bgColor, textColor } = item; // Destructuring item prop
 
   return (
-    <div className={`py-[30px] px-3 lg:px-5 rounded-lg shadow-lg ${bgColor} ${textColor}`}>
+    <div className={`py-[30px] px-3 lg:px-5 rounded-lg shadow-lg ${bgColor} ${textColor} transition-transform transform hover:scale-105`}>
         {/* Use name and desc properties */}
         <h2 className='text-[26px] leading-9 text-headingColor font-[700]'>
             {name}
